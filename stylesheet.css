@@ -1,0 +1,25 @@
+.logo {
+    height: 39px;
+}
+
+.nav-link {
+    color: #141414;
+    font-size: 20px;
+    padding: 23px;
+    
+}
+
+.nav-link:hover {
+    color: #141414;
+    font-size: 20px;
+    padding: 23px;
+}
+body{
+    background-image: url(assets/bg.png) ;   
+    padding: 1px;
+
+}
+h1{
+    font-size: 250px;
+    font-family: Concrete;
+}
