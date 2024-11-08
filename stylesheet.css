@@ -5,14 +5,14 @@
 .nav-link {
     color: #141414;
     font-size: 20px;
-    padding: 23px;
+    padding: 18px;
     
 }
 
 .nav-link:hover {
     color: #141414;
     font-size: 20px;
-    padding: 23px;
+    padding: 21px;
 }
 body{
     background-image: url(assets/bg.png) ;   
@@ -20,6 +20,6 @@ body{
 
 }
 h1{
-    font-size: 250px;
+    font-size: 260px;
     font-family: Concrete;
 }
