@@ -1,16 +1,19 @@
 @font-face {
     font-family: Concrete;
     src: url(assets/fonts/Concrete-Regular.otf);
-  }
+}
+
 .logo {
     height: 39px;
+
 }
 
 .nav-link {
     color: #141414;
     font-size: 20px;
     padding: 18px;
-    
+    font-family: Libre;
+
 }
 
 .nav-link:hover {
@@ -18,12 +21,21 @@
     font-size: 20px;
     padding: 21px;
 }
-body{
-    background-image: url(assets/bg.png) ;   
+
+body {
+    background-image: url(assets/bg.png);
     padding: 1px;
 
 }
-h1{
+
+h1 {
     font-size: 260px;
     font-family: Concrete;
+
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 70px;
+    }
 }
