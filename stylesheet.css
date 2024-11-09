@@ -1,3 +1,7 @@
+@font-face {
+    font-family: Concrete;
+    src: url(assets/fonts/Concrete-Regular.otf);
+  }
 .logo {
     height: 39px;
 }
