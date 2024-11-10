@@ -2,10 +2,12 @@
     font-family: Concrete;
     src: url(assets/fonts/Concrete-Regular.otf);
 }
+
 .container-fluid {
     padding-left: 50px !important;
     padding-right: 50px !important;
 }
+
 .logo {
     height: 39px;
 }
@@ -36,4 +38,3 @@ h1 {
     font-family: Concrete;
 
 }
-
