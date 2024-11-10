@@ -3,13 +3,13 @@
     src: url(assets/fonts/Concrete-Regular.otf);
 }
 
-.container-fluid {
-    padding-left: 50px !important;
-    padding-right: 50px !important;
-}
-
-.logo {
+#logo {
     height: 39px;
+    top: 62px;
+    left: 46px;
+    gap: 0px;
+    opacity: 0px;
+
 }
 
 .nav-link {
@@ -36,5 +36,27 @@ body {
 h1 {
     font-size: 281px;
     font-family: Concrete;
+    text-align: center;
+
+}
+
+h2 {
+    font-family: Concrete;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 112px;
+    text-align: left;
+    
+}
+
+#idk {
+    text-align: end;
+    font-size: 16px;
+    line-height: 17.6px;
+}
+
+#school {
+    width: 1348px;
+    height: 737px;
 
 }
