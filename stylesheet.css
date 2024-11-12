@@ -1,62 +1,83 @@
+/* Custom Font */
 @font-face {
     font-family: Concrete;
     src: url(assets/fonts/Concrete-Regular.otf);
 }
 
-#logo {
-    height: 39px;
-    top: 62px;
-    left: 46px;
-    gap: 0px;
-    opacity: 0px;
 
-}
 
+/* Navbar links */
 .nav-link {
     color: #141414;
     font-size: 20px;
     padding: 18px;
     font-family: Libre;
     text-align: right;
-
 }
 
 .nav-link:hover {
     color: #141414;
-    font-size: 20px;
     padding: 21px;
 }
 
+/* Body background */
 body {
     background-image: url(assets/bg.png);
     padding: 1px;
-
 }
 
+/* Title styling */
 h1 {
     font-size: 281px;
     font-family: Concrete;
     text-align: center;
-
 }
 
-h2 {
-    font-family: Concrete;
-    font-size: 80px;
-    font-weight: 400;
-    line-height: 112px;
-    text-align: left;
-    
+/* Logo styling */
+#logo {
+    height: 39px;
+    opacity: 0px;
 }
 
-#idk {
+/* Additional text styling */
+#subtitle {
     text-align: end;
     font-size: 16px;
     line-height: 17.6px;
 }
 
+/* School image styling */
 #school {
-    width: 1348px;
-    height: 737px;
+    width: 100%;
+    max-width: 1348px;
+    height: auto;
+    /* Keeps aspect ratio */
+    margin-top: 20px;
+    /* Adds some space above image */
+}
 
+/* Project name styling */
+#project-name {
+    font-family: Concrete;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 112px;
+    text-align: start;
+    margin: 0;
+    /* Removes default margin */
+}
+
+/* Description text styling */
+#description {
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: right;
+    margin-left: 15px;
+}
+
+.explanation {
+    font-size: 20px;
+    line-height: 1.6;
+    text-align: left;
+    margin-left: 15px;
 }
