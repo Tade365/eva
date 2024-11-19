@@ -4,7 +4,17 @@
     src: url(assets/fonts/Concrete-Regular.otf);
 }
 
+/* Body background */
+body {
+    background-image: url(assets/bg.png);
+    padding: 1px;
+}
 
+/* Logo styling */
+#logo {
+    height: 39px;
+    opacity: 0px;
+}
 
 /* Navbar links */
 .nav-link {
@@ -20,23 +30,11 @@
     padding: 21px;
 }
 
-/* Body background */
-body {
-    background-image: url(assets/bg.png);
-    padding: 1px;
-}
-
 /* Title styling */
 h1 {
     font-size: 281px;
     font-family: Concrete;
     text-align: center;
-}
-
-/* Logo styling */
-#logo {
-    height: 39px;
-    opacity: 0px;
 }
 
 /* Additional text styling */
@@ -63,7 +61,7 @@ h1 {
     font-weight: 400;
     line-height: 112px;
     text-align: start;
-    margin: 0;
+    margin-top: 15%;
     /* Removes default margin */
 }
 
@@ -80,4 +78,11 @@ h1 {
     line-height: 1.6;
     text-align: left;
     margin-left: 15px;
+}
+
+#school2 {
+    height: 772px;
+    width: 411px;
+    margin-top: 15%;
+    margin-left: 10%;
 }
