@@ -50,20 +50,20 @@ h1 {
     max-width: 1348px;
     height: auto;
     margin-top: 2%;
+    margin-bottom: 7%;
 }
 
 /* Project name styling */
-#project-name {
+h2 {
     font-family: Concrete;
     font-size: 80px;
     text-align: start;
-    margin-top: 15%;
     margin-bottom: -5%;
 }
 
 /* Description text styling */
-#description {
-    font-size: 25px;
+.description {
+    font-size: 20px;
     text-align: right;
 }
 
@@ -74,7 +74,8 @@ h1 {
     text-align: left;
     margin-left: 15px;
 }
-.top{
+
+.top {
     margin-top: 60px;
 }
 
@@ -88,4 +89,9 @@ h1 {
     width: 411px;
     margin-top: 15%;
     margin-left: 10%;
+}
+
+#evaframe {
+    width: 939px;
+    height: 520px;
 }
