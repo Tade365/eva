@@ -67,22 +67,27 @@ h1 {
 
 /* Description text styling */
 #description {
-    font-size: 20px;
+    font-style: italic;
+    font-size: 25px;
     line-height: 1.6;
     text-align: right;
     margin-left: 15px;
 }
 
 .explanation {
-    font-size: 20px;
+    font-size: 30px;
     line-height: 1.6;
     text-align: left;
     margin-left: 15px;
 }
 
+#left{
+    text-align: left;
+}
 #school2 {
     height: 772px;
     width: 411px;
     margin-top: 15%;
     margin-left: 10%;
+    
 }
