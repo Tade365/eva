@@ -20,8 +20,6 @@ body {
 .nav-link {
     color: #141414;
     font-size: 20px;
-    padding: 18px;
-    font-family: Libre;
     text-align: right;
 }
 
@@ -35,13 +33,15 @@ h1 {
     font-size: 281px;
     font-family: Concrete;
     text-align: center;
+    padding: 0%;
+    margin-bottom: -5%;
 }
 
 /* Additional text styling */
 #subtitle {
     text-align: end;
     font-size: 16px;
-    line-height: 17.6px;
+
 }
 
 /* School image styling */
@@ -49,45 +49,43 @@ h1 {
     width: 100%;
     max-width: 1348px;
     height: auto;
-    /* Keeps aspect ratio */
-    margin-top: 20px;
-    /* Adds some space above image */
+    margin-top: 2%;
 }
 
 /* Project name styling */
 #project-name {
     font-family: Concrete;
     font-size: 80px;
-    font-weight: 400;
-    line-height: 112px;
     text-align: start;
     margin-top: 15%;
-    /* Removes default margin */
+    margin-bottom: -5%;
 }
 
 /* Description text styling */
 #description {
-    font-style: italic;
     font-size: 25px;
-    line-height: 1.6;
     text-align: right;
-    margin-left: 15px;
 }
 
+/* class that represents description texts */
 .explanation {
     font-size: 30px;
     line-height: 1.6;
     text-align: left;
     margin-left: 15px;
 }
+.top{
+    margin-top: 60px;
+}
 
-#left{
+#left {
     text-align: left;
 }
+
+/* diafilm image */
 #school2 {
     height: 772px;
     width: 411px;
     margin-top: 15%;
     margin-left: 10%;
-    
 }
