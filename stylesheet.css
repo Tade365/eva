@@ -4,11 +4,10 @@
     src: url(assets/fonts/Concrete-Regular.otf);
 }
 
-/* Body background */
-body {
+body{
     background-image: url(assets/bg.png);
-    padding: 1px;
 }
+
 
 /* Logo styling */
 #logo {
@@ -21,6 +20,7 @@ body {
     color: #141414;
     font-size: 20px;
     text-align: right;
+    margin-left: 1.7rem;
 }
 
 .nav-link:hover {
@@ -41,7 +41,6 @@ h1 {
 #subtitle {
     text-align: end;
     font-size: 16px;
-
 }
 
 /* School image styling */
@@ -92,6 +91,6 @@ h2 {
 }
 
 #evaframe {
-    width: 939px;
-    height: 520px;
+    width: 850px;
+    height: 500px;
 }
